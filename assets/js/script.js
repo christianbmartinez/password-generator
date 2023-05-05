@@ -88,6 +88,7 @@ const upperCaseCharacters = [
 ]
 
 const generateBtn = document.getElementById('generate')
+const output = document.getElementById('password')
 let userInput
 let passwordLength = false
 let password = []
@@ -185,7 +186,7 @@ const app = {
 // Write password to the #password input
 const writePassword = () => {
   app.launch()
-  document.querySelector('#password').innerHTML = generatedPassword
+  output.innerHTML = generatedPassword
 }
 
 // Add an event listener to the generate button
