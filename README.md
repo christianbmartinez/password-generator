@@ -7,5 +7,3 @@ A password generator tool that outputs a password to the user after a series of 
 # Built with
 
 HTML, CSS, JS
-
-[View live](https://passwordgenerator.christianbmartinez.com/)
